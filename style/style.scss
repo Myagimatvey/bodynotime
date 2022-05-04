@@ -3,12 +3,13 @@
 @import './typography';
 @import './mixins.scss'; // Миксины
 
-@import './сomponents/btn.scss'; // КНОПКА
+@import 'components/btn.scss'; // КНОПКА
 
 
 
 
 
-@import './сomponents/header.scss'; // ШАПКА САЙТА
-@import './сomponents/back-call.scss'; // компонент back-call обратный звонок
-@import './сomponents/about-us.scss';
+@import './components/header.scss'; // ШАПКА САЙТА
+@import './components/back-call.scss'; // компонент back-call обратный звонок
+@import './components/about-us.scss';
+@import './components/dignity.scss';
