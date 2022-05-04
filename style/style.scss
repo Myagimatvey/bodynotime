@@ -1,5 +1,6 @@
 @import './none.scss'; // Обнуление
 @import './fonts.scss'; // Шрифты
+@import './typography';
 @import './mixins.scss'; // Миксины
 
 @import './сomponents/btn.scss'; // КНОПКА
@@ -7,5 +8,7 @@
 
 
 
+
 @import './сomponents/header.scss'; // ШАПКА САЙТА
 @import './сomponents/back-call.scss'; // компонент back-call обратный звонок
+@import './сomponents/about-us.scss';

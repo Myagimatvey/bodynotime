@@ -1,0 +1,49 @@
+.about-us {
+
+
+  &__container{
+    padding: 170px 0;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    grid-column-start: 2;
+    grid-column-end: 12;
+  }
+
+  &__items {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 32px;
+
+    margin-top: 80px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+  }
+
+  &__logo {
+    width: 105px;
+    height: 105px;
+  }
+
+  &__text {
+    margin-top: 30px;
+
+    font-size: 20px;
+    line-height: 150%;
+
+    text-align: center;
+
+    color: #363431;
+  }
+}
